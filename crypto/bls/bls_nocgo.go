@@ -1,4 +1,4 @@
-//go:build !cgo
+// +build !cgo
 
 // Package bls implements a go-wrapper around a library implementing the
 // the BLS12-381 curve and signature scheme. This package exposes a public API for
