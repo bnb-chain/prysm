@@ -13,7 +13,7 @@ import (
 	kbls "github.com/kilic/bls12-381"
 	"github.com/pkg/errors"
 	bls12 "github.com/protolambda/bls12-381-util"
-	"github.com/prysmaticlabs/prysm/v4/crypto/bls/common"
+	"github.com/prysmaticlabs/prysm/crypto/bls/common"
 )
 
 // SecretKeyFromBytes creates a BLS private key from a BigEndian byte slice.
